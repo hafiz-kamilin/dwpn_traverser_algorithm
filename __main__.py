@@ -18,7 +18,7 @@ print ("\nNodes and arcs that are extracted from the pnml file:")
 print (converted, "\n")
 
 # visualize the wf-net using graphviz
-# wfnet_graph_viewer.plot(converted)
+wfnet_graph_viewer.plot(converted)
 
 # plot the wf-net and traverse the nodes
 print ("Traversed nodes sequence:")
